@@ -1,0 +1,12 @@
+{
+    "name": "app",
+    "srcDir": "./spec/data/src",
+    "outDir": "./spec/data/out",
+    "cargoList": ["foo.js"],
+    "checks":[
+        {
+            "check": true,
+            "checkPassed": ["foo.js"]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "author": "Frank O'Hara <frank@binarymechanics.com>",
+    "name": "carryall-packer",
+    "description": "Generates files for use with the Carryall.js script loader.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/bimech/carryall-packer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bimech/carryall-packer.git"
+    },
+    "keywords": [
+        "carryall",
+        "loader",
+        "packager"
+    ],
+    "main": "./lib/main",
+    "bin": {
+        "carryall-packer": "./bin/carryallPacker"
+    },
+    "dependencies": {
+        "uglify-js": "*",
+        "js-string-escape": "*",
+        "optimist": "*"
+    },
+    "devDependencies": {
+        "jasmine-node": "*"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    },
+    "licenses": [
+        "MIT"
+    ]
+}

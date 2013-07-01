@@ -1,0 +1,1 @@
+window.foo = function foo() {return 'foo';};
