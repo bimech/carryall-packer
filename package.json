@@ -2,7 +2,7 @@
     "author": "Frank O'Hara <frank@binarymechanics.com>",
     "name": "carryall-packer",
     "description": "Generates files for use with the Carryall.js script loader.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/bimech/carryall-packer",
     "repository": {
         "type": "git",
@@ -15,7 +15,7 @@
     ],
     "main": "./lib/main",
     "bin": {
-        "carryall-packer": "./bin/carryallPacker"
+        "carryall-packer": "./bin/carryall-packer.js"
     },
     "dependencies": {
         "uglify-js": "*",
