@@ -1,8 +1,7 @@
 {
     "name": "app",
-    "srcDir": "./spec/data/src",
     "outDir": "./spec/data/out",
-    "cargoList": ["foo.js"],
+    "cargoList": [{ "name": "foo.js", "path": "./spec/data/src"}],
     "checks":[
         {
             "check": true,

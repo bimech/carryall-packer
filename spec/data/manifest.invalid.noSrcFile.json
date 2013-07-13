@@ -1,8 +1,7 @@
 {
     "name": "app",
-    "srcDir": "./spec/data/src",
     "outDir": "./spec/data/out",
-    "cargoList": ["qux.js"],
+    "cargoList": [{"name": "qux.js", "path": "./spec/data/src"}],
     "checks":[
         {
             "check": true,
